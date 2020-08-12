@@ -38,8 +38,9 @@
       color: #D5D5D5;
     }
     .carousel-caption{
-      top: 60%;
+      top: 70%;
       transform: translateY(-40%);
+      color: #3d0c02;
       /* text-transform: */
     }
     .btn {
@@ -47,7 +48,7 @@
       color: #FFF;
       padding: 12px 22px;
       background: #3d0c02;
-      border: 2px solid #FFF;
+      /* border: 2px solid #FFF; */
     }
     .container{
       margin: 4% auto;
@@ -56,6 +57,9 @@
     #icon{
       max-width: 200px;
       margin: 1% auto;
+    }
+    #tripletImages{
+      max-width: 300px;
     }
     footer{
       width: 100%;
@@ -72,21 +76,27 @@
       color: #D3D3D3;
       text-decoration: none;
     }
-    @media (max-width: 600px){
+    @media (max-width: 1200px){
       .carousel-caption{
         display: none;
       }
       #icon{
         max-width: 150px;
       }
+      #tripletImages{
+        max-width: 250px;
+      }
       h2{
         font-size: 1.7em;
       }
     }
-    @media (max-width: 900px){
+    @media (max-width: 1000px){
       .fa{
         font-size: 20px;
         padding: 10px;
+      }
+      #tripletImages{
+        max-width: 200px;
       }
     }
   </style>
@@ -101,7 +111,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/richardname-white.png" style="height:100%"></a>
+          <a class="navbar-brand" href="index.html"><img src="img/richardname-white2.png" style="height:100%"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -128,17 +138,21 @@
         <div class="item active">
             <img src="img/richardstand.jpg">
             <div class="carousel-caption">
-                <h1>Hello, my name is Richard</h>
+                <h1>Hi, My Name is Richard</h>
                 <br />
                 <br />
-                <a href="#bigIdeas"><button type="button" class="btn btn-default">Get to know me</button></a>
+                <a href="#bigIdeas"><button type="button" class="btn btn-default">Get to know me :)</button></a>
             </div>
         </div> <!-- End active -->
         <!-- the second image -->
         <div class="item">
-          <img src="img/richardsmile.jpg">
+          <img src="img/richardbanner.png">
         </div>
         <!-- the third image -->
+        <div class="item">
+          <img src="img/richardsmile.jpg">
+        </div>
+        <!-- the fourth image -->
         <div class="item">
           <img src="img/richardchair.jpg">
         </div>
@@ -161,7 +175,7 @@
       <div class="row"> <!-- row -->
         <div class="col-sm-4">
             <!-- he put in another few images -->
-            <img src="img/working.jpeg" id="icon">
+            <img src="img/working.jpeg" id="tripletImages">
             <h4>Problem Solver</h4>
             <br>
             <p>
@@ -171,12 +185,12 @@
         </div>
         <div class="col-sm-4">
            <!-- he put in another few images -->
-            <img src="img/uofthacks.jpeg" id="icon">
+            <img src="img/uofthacks.jpeg" id="tripletImages">
             <h4>Creative Mind</h4>
         </div>
         <div class="col-sm-4">
             <!-- he put in another few images -->
-            <img src="img/dboatrun.jpg" id="icon">
+            <img src="img/dboatrun.jpg" id="tripletImages">
             <h4>Team Player</h4>
         </div>
       </div>
@@ -281,8 +295,8 @@
         <div class="col-sm-4">
           <h3>Social media</h3>
           <br>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-facebook active"></a>
+          <a href="#" class="fa fa-linkedin active"></a>
         </div>
     </div>
   </footer>
