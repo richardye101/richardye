@@ -1,0 +1,168 @@
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+body{
+  overflow-x: hidden;
+  font-family: 'Jost', sans-serif !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.navbar-brand img{
+  height: 5rem;
+  padding: 2%;
+  position: relative;
+  left: 15px;
+}
+.nav-link{
+  color: #A9A9A9 !important;
+  margin: 5px;
+}
+.nav-link.active, .nav-link:hover{
+  color: #5b5555 !important;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+}
+#carousel{
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+.carousel-inner{
+  /* so that the carousel doesnt extend below the screen */
+  max-height: 36rem !important;
+}
+/* scrolling speed of the carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active{
+  transition: transform: 2.2s ease;
+}
+.carousel-caption{
+  position: absolute;
+  top: 45%;
+  /* transition: translateY(-35%); */
+}
+.bg-custom-caption{
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: .5rem;
+}
+.carousel-caption h1{
+  font-size: 3rem;
+  text-shadow: .1rem .1rem .9rem rgba(0, 0, 0, 1);
+}
+.btn-md{}
+.btn {
+  font-size: 18px;
+  color: #FFF;
+  padding: 12px 22px;
+  background: #3d0c02;
+  /* border: 2px solid #FFF; */
+}
+.container{
+  margin: 4% auto;
+}
+
+#icon{
+  max-width: 200px;
+  margin: 1% auto;
+}
+#tripletImages{
+  max-width: 300px;
+  box-shadow: 5px 5px 7px;
+}
+footer{
+  width: 100%;
+  background-color: #3d0c02;
+  padding: 5%;
+  color: #FFF;
+}
+.fa{
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;
+}
+.fa:hover{
+  color: #D3D3D3;
+  text-decoration: none;
+}
+@media (max-width: 1200px){
+  .carousel-caption{
+    display: none;
+  }
+  #icon{
+    max-width: 150px;
+  }
+  #tripletImages{
+    max-width: 250px;
+  }
+  h2{
+    font-size: 1.7em;
+  }
+}
+@media (max-width: 1000px){
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+  #tripletImages{
+    max-width: 200px;
+  }
+}
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
