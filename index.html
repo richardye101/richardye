@@ -7,8 +7,9 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/4cf50bdefe.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -57,7 +58,7 @@
                   add 3 rem padding verticall, eliminate any horizontal padding -->
                   <div class="col-8 bg-custom-caption d-sm-block py-3 px-0">
                     <h1>Hi, My Name is Richard</h1>
-                    <a href="#myExperiences" class="btn btn-outline-dark btn-lg">Get to know me</a>
+                    <a href="#bio" class="btn btn-outline-dark btn-lg">Get to know me</a>
                   </div>
                 </div>
               </div>
@@ -87,25 +88,26 @@
 <!-- End of image slider -->
 
 <!-- 2 colum text and image -->
-<div class="container">
+<div class="container" id="bio">
     <div class="row">
-        <div class="col-md-4">
-          <h4>What I Do</h4>
+        <div class="col-md-7">
+          <h2>What I Do</h2>
+          <hr class="solid">
           <p>
-          I do lots of cool shit dude, but sometimes i can be pretty lazy.
+            I do lots of cool shit dude, but sometimes i can be pretty lazy.
           </p>
         </div>
-        <div class="col-md-8">
-            <img src="img/bootstrap2.jpg" class="img-responsive">
+        <div class="col-md-5">
+            <img src="img/chairbio.jpg" class="img-fluid my-5">
         </div>
     </div>
 </div>
 
 <!-- My Experiences -->
-  <div class="container text-center" id="myExperiences">
+  <div class="container text-center">
       <h2>My Experiences</h2>
       <div class="row"> <!-- row -->
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <!-- he put in another few images -->
             <div class="tImgContainer">
               <img  src="img/working.jpeg" id="tripletImages">
@@ -119,7 +121,7 @@
                 realistic action plans all in high-pressure environments.
             </p>
         </div>
-        <div class="col-md-4 ">
+        <div class="col-md-4 col-sm-6">
            <!-- he put in another few images -->
            <div class="tImgContainer">
              <img src="img/uofthacks.jpeg" id="tripletImages">
@@ -137,7 +139,7 @@
                 <a target="_blank" rel="noopener noreferrer" href="https://devpost.com/software/potholepal">Devpost</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <!-- he put in another few images -->
             <div class="tImgContainer">
               <img src="img/dboatrun.jpg" id="tripletImages">
@@ -156,7 +158,7 @@
   </div>
 
   <!-- 4 column txt and images -->
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>Another small section about me</h4>
@@ -183,10 +185,10 @@
           </p>
         </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Little Hidden section -->
-  <div class="container">
+  <!-- <div class="container">
       <div class="row">
               <h4><a href="#hidden" data-toggle="collapse">Welcome to my hidey hole</a></h4>
               <div id="hidden" class="collapse">
@@ -195,55 +197,31 @@
                 </p>
               </div>
       </div>
-  </div>
-
-  <!-- footer from a website i like  -->
-  <section class="container ">
-    <a href="https://www.ontario.ca/page/copyright-information-c-queens-printer-ontario" target="_blank" <="" span=""></a>
-    <div id="dnn_paneSocialIcons" class="pull-left" role="navigation">
-      <a href="https://www.ontario.ca/page/copyright-information-c-queens-printer-ontario" target="_blank" <="" span=""></a>
-      <div class="DnnModule DnnModule-DNN_HTML DnnModule-45443 DnnVersionableControl">
-        <a href="https://www.ontario.ca/page/copyright-information-c-queens-printer-ontario" target="_blank" <="" span=""></a>
-        <a name="45443"></a>
-        <div class="DNNContainer_noTitle">
-           <div id="dnn_ctr45443_ContentPane"><!-- Start_Module_45443 --><div id="dnn_ctr45443_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
-              <div id="dnn_ctr45443_HtmlModule_lblContent"><ul class="list-inline social" aria-label="Social Media links">
-                <li><a href="https://twitter.com/HQOntario" title="Follow us on Twitter" aria-label="Follow us on Twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.youtube.com/user/HealthQualityOntario" title="Follow us on Youtube" aria-label="Follow us on YouTube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                <li><a href="mailto:info@hqontario.ca" title="Request Information" aria-label="Request Information"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div><!-- End_Module_45443 -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="pull-right hqo-logo">
-    <a id="dnn_dnnLOGO_hypLogo" title="Health Quality Ontario (HQO)" href="https://www.hqontario.ca/"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/hqo_logo.png?ver=2019-06-27-144347-803" alt="Health Quality Ontario (HQO)"></a>
-  </div>
-  </section>
+  </div> -->
 
 <!-- The footer section -->
-  <footer class="container-fluid text-center">
+  <footer class="container-fluid text-center py-3">
     <div class="row">
-        <div class="col-sm-4">
-          <h3>Contact Me</h3>
-          <br>
-          <h4>My Email and contact</h4>
+        <div class="col-sm-6 py-4">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-bootstrap"></i>
+          <p><i>Created with HTML 5, CSS3, and Boostrap 4.5.2</i></p>
         </div>
-        <div class="col-sm-4">
-          <h3>My Logo</h3>
-          <br>
-          <img src="img/richardname-white.png" class="icon" style="width: 30%;">
-        </div>
-        <div class="col-sm-4">
-          <h3>Social media</h3>
-          <br>
-          <a href="#" class="fa fa-facebook active"></a>
-          <a href="#" class="fa fa-linkedin active"></a>
+        <div class="col-sm-6">
+          <h3>Contact</h3>
+          <a href="" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
     </div>
   </footer>
+
+<div class="socket text-light text-center py-3">
+    <p class="my-0">
+      &copy;
+      <a href="https://corekel.github.io/richardye/" target="_blank">richardye.me</a>
+    </p>
+</div>
 
   <!-- jQuery to help bootstrap run i guess -->
   <script
@@ -252,9 +230,6 @@
   crossorigin="anonymous"></script>
 	<!-- Bootstrap 4.5 JS -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<!-- Font Awesome -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
-  integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
 
 </body>
 </html>
