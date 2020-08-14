@@ -73,12 +73,11 @@ html{
   font-size: 3rem;
   text-shadow: .1rem .1rem .9rem rgba(0, 0, 0, 1);
 }
-.btn-md{}
 .btn {
   font-size: 18px;
   color: #FFF;
   padding: 12px 22px;
-  background: #3d0c02;
+  background: #404040;
   /* border: 2px solid #FFF; */
 }
 .container{
