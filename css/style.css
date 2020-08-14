@@ -84,8 +84,12 @@ html{
 .container{
   margin: 4% auto;
 }
-#bio h2{
+h2{
   padding: 1.2rem 0;
+}
+.p-bio{
+  font-size: 1.1em;
+  line-height: 2em;
 }
 h4{
   padding: 1.2rem 0 0;
@@ -131,6 +135,10 @@ footer{
 .fab{
   font-size: 1.4em;
   padding: .8em 0.7em;
+}
+#madeWith{
+  position: relative;
+  top: 30px
 }
 .socket{
   background-color: #202020;
