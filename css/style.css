@@ -88,12 +88,11 @@ html{
   padding: 1.2rem 0;
 }
 h4{
-  padding: 1rem 0;
+  padding: 1.2rem 0 0;
 }
-
-#icon{
-  max-width: 200px;
-  margin: 1% auto;
+hr.solid{
+  border-top: 2px solid #bbb;
+  border-radius: 2px;
 }
 .tImgContainer{
   overflow: hidden;
