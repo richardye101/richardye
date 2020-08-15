@@ -59,27 +59,6 @@ html{
 .carousel-item-active{
   transition: transform: 2.2s ease;
 }
-.carousel-caption{
-  position: absolute;
-  bottom: 25%;
-  /* transition: translateY(-35%); */
-}
-.bg-custom-caption{
-  background-color: rgba(0, 0, 0, 0.2);
-  color: white;
-  border-radius: .5rem;
-}
-.carousel-caption h1{
-  font-size: 3rem;
-  text-shadow: .1rem .1rem .9rem rgba(0, 0, 0, 1);
-}
-.btn {
-  font-size: 18px;
-  color: #FFF;
-  padding: 12px 22px;
-  background: #404040;
-  /* border: 2px solid #FFF; */
-}
 .container{
   margin: 4% auto;
 }
@@ -175,7 +154,7 @@ footer{
 .fixed-background {
   position: relative;
   width: 100%;
-  z-index: 1000!important;
+  z-index: 1000 !important;
 }
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
