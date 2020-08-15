@@ -61,7 +61,7 @@ html{
 }
 .carousel-caption{
   position: absolute;
-  top: 45%;
+  bottom: 25%;
   /* transition: translateY(-35%); */
 }
 .bg-custom-caption{
